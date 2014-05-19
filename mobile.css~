@@ -1,0 +1,109 @@
+body { background-image: url('squares.png');}
+
+/* contain whole website */
+div#main {
+width: 465px;
+margin-left: auto;
+margin-right: auto;}
+
+/* setting font style*/
+a { font-family: 'Noto Sans', sans-serif;}
+
+div.section p { font-family: 'Noto Sans', sans-serif;
+color: white;
+text-align: justify;
+font-size: medium;
+margin-left: 10px;
+margin-right: 10px;
+letter-spacing: 1px;
+margin-top: 10px;
+line-height: 25px;}
+
+div.section1 p { font-family: 'Noto Sans', sans-serif;
+color: white;
+text-align: left;
+font-size: medium;
+margin-left: 10px;
+margin-right: 20px;
+letter-spacing: 1px;
+margin-top: 10px;
+line-height: 25px;}
+
+div.title { font-family: 'Noto Sans', sans-serif;
+color: white;
+background: #47A3FF;
+font-size: 20px;
+text-align: left;
+letter-spacing: 1px;
+margin-left: 10px;
+margin-right: 20px;
+display: inline;
+padding-left: 5px;
+padding-right: 5px;}
+
+div.content a:hover {color: pink; text-decoration: none;}
+div.content a:active {color: pink; text-decoration: none;}
+div.content a {color: white; text-decoration: underline;}
+
+/* banner setting */
+div#banner { height: 190px;}
+
+/* setting up links */
+div#banner a:hover {color: pink; font-weight: bold;}
+div#banner a:active {color: pink; text-decoration: none;}
+div#banner a {color: white; text-decoration: underline;}
+
+/* logo setting */
+div#banner_logo { position: relative;
+margin-right: 20px;
+left: 5px;
+top: 1px;}
+
+/* navigation bar setting */
+div#navigation { position: relative;
+left: 200px;
+top: -150px;
+font-size: 25px;
+width: 120px;
+letter-spacing: 1px;}
+
+ul#nav { padding: 0px;
+margin: 0px;}
+
+li.bar { display: inline;
+font-size: 18px;}
+
+li.bar1 { display: inline; 
+font-size: 18px;}
+
+li.bar p { display: inline;
+margin: 0px;
+font-size: 18px;}
+
+li.bar1 p { display: inline; 
+margin: 0px; 
+font-size: 18px;}
+
+div#navigation a:hover {color: pink; font-weight: bold;}
+div#navigation a:active {color:pink; text-decoration: none;}
+div#navigation a {color: white; text-decoration: none;}
+
+/* section setting */
+div.section { border-top: 3px solid #47A3FF;
+margin-top: 5px;}
+
+div.section1 { border-top: 3px solid #47A3FF;
+margin-top: 5px;}
+           
+/* image setting inside section */
+div.wonder_pic { position: relative;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 15px;}
+
+/* setting max image width */
+img.wonder_img { max-width: 300px;}
+
+/* custom font from google 
+font-family: Noto_Sans; */

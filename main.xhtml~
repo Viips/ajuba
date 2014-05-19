@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Ajuba</title>
+
+<!-- custom font from google -->
+<link href='http://fonts.googleapis.com/css?family=Inder|Doppio+One|Noto+Sans' rel='stylesheet' type='text/css'/>
+
+<!-- script to change stylesheet --> 
+<script type="text/javascript" src="CTEC1800-Stylesheets.js"></script>
+<link rel="stylesheet" type="text/css" href="desktop.css" title="desktop"/>
+<link rel="alternate stylesheet" type="text/css" href="mobile.css" title="mobile"/>
+<link rel="alternate stylesheet" type="text/css" href="tablet.css" title="tablet"/>
+
+<!-- bookmark and browser tab image -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+<!-- iPhone bookmark -->
+<link rel="apple-touch-icon" href="ilogo.png"/>
+</head>
+
+<body onload="chooseStyleBySize()" onresize="chooseStyleBySize()">
+<div id="main">
+<!-- navigation banner -->
+<div id="banner">
+<div id="banner_logo"><img src="logo.png" title="logo" alt="picture of the logo"/></div>
+<div id="navigation">
+<ul id="nav">
+<li class="bar"><a href="main.xhtml">HOME</a></li>
+<li class="bar"><a href="critique.xhtml">CRITIQUE</a></li>
+<li class="bar"><a href="explanation.xhtml">EXPLANATION</a></li>
+<li class="bar"><p onclick="setActiveStyle('mobile')"><a href="#">MOBILE</a></p></li>
+<li class="bar1"><p onclick="setActiveStyle('tablet')"><a href="#">TABLET</a></p></li>
+</ul>
+</div> <!-- end navigation -->
+</div> <!-- end banner -->
+
+<!-- content -->
+<div class="content">
+<div class="section">
+<div class="title">The Seven Ancient Wonders</div>
+<p><a href="#pyramid">Great Pyramid of Giza</a></p>
+<p><a href="#gardens">Hanging Gardens of Babylon</a></p>
+<p><a href="#temple">Temple of Artemis at Ephesus</a></p>
+<p><a href="#statue">Statue of Zeus at Olympia</a></p>
+<p><a href="#mausoleum">Mausoleum at Halicarnassus</a></p>
+<p><a href="#colossus">Colossus of Rhodes</a></p>
+<p><a href="#lighthouse">Lighthouse of Alexandria</a></p>
+</div>
+
+<!-- wonders of world content -->
+<div id="pyramid"></div>
+<div class="section">
+<div class="title">Great Pyramid of Giza</div>
+<div class="wonder_pic"><img src="pyramid.jpg" class="wonder_img" title="Great Pyramid of Giza" alt="picture of the Great Pyramid of Giza"/></div>
+<p>The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the three pyramids in the Giza Necropolis bordering what is now El Giza, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact. Egyptologists believe that the pyramid was built as a tomb for fourth dynasty Egyptian Pharaoh Khufu (Cheops in Greek) over a 10 to 20-year period concluding around 2560 BCE. Initially at 146.5 metres (481 feet), the Great Pyramid was the tallest man-made structure in the world for over 3,800 years. Originally, the Great Pyramid was covered by casing stones that formed a smooth outer surface; what is seen today is the underlying core structure. Some of the casing stones that once covered the structure can still be seen around the base. There have been varying scientific and alternative theories about the Great Pyramid's construction techniques. Most accepted construction hypotheses are based on the idea that it was built by moving huge stones from a quarry and dragging and lifting them into place.</p>
+</div>
+
+<div id="gardens"></div>
+<div class="section">
+<div class="title">Hanging Gardens of Babylon</div>
+<div class="wonder_pic"><img src="gardens.jpg" class="wonder_img" title="Hanging Gardens of Babylon" alt="picture of the Hanging Gardens of Babylon"/></div>
+<p>The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World, and the only one of the wonders that may have been purely legendary. They were purportedly built in the ancient city-state of Babylon, near present-day Al Hillah, Babil province, in Iraq. The Hanging Gardens were not the only World Wonder in Babylon; the city walls and obelisk attributed to Queen Semiramis were also featured in ancient lists of Wonders. The gardens were attributed to the Neo-Babylonian king Nebuchadnezzar II, who ruled between 605 and 562 BC. He is reported to have constructed the gardens to please his homesick wife Amytis of Media, who longed for the plants of her homeland. The gardens were said to have been destroyed by several earthquakes after the 2nd century BC. The Hanging Gardens of Babylon are documented by ancient Greek and Roman writers, including Strabo, Diodorus Siculus, and Quintus Curtius Rufus. However, no cuneiform texts describing the Hanging Gardens are extant, and no definitive archaeological evidence concerning their whereabouts has been found.</p>
+</div>
+
+<div id="temple"></div>
+<div class="section">
+<div class="title">Temple of Artemis at Ephesus</div>
+<div class="wonder_pic"><img src="temple.jpg" class="wonder_img" title="Artemis at Ephesus" alt="picture of the Artemis at Ephesus"/></div>
+<p>The Temple of Artemis or Artemision, also known less precisely as the Temple of Diana, was a Greek temple dedicated to a goddess Greeks identified as Artemis and was one of the Seven Wonders of the Ancient World. It was located in Ephesus, and was completely rebuilt three times before its eventual destruction in 401. Only foundations and sculptural fragments of the latest of the temples at the site remain. The first sanctuary (temenos) antedated the Ionic immigration by many years, and dates to the Bronze Age. Callimachus, in his Hymn to Artemis, attributed it to the Amazons. In the 7th century BC, the old temple was destroyed by a flood. Its reconstruction began around 550 BC, under the Cretan architect Chersiphron and his son Metagenes, at the expense of Croesus of Lydia: the project took 10 years to complete, only to be destroyed in an act of arson by Herostratus. It was later rebuilt.</p>
+</div>
+
+<div id="statue"></div>
+<div class="section">
+<div class="title">Statue of Zeus at Olympia</div>
+<div class="wonder_pic"><img src="statue.jpg" class="wonder_img" title="Zeus at Olympia" alt="picture of the Zeus at Olympia"/></div>
+<p>The Statue of Zeus at Olympia was a giant seated figure, about 13 m (42 ft) tall, made by the Greek sculptor Phidias in circa 430-422 BC at the sanctuary of Olympia, Greece and erected in the Temple of Zeus there. A chryselephantine sculpture of plated ivory and gold panels over a wooden framework, it represented the god Zeus sitting on an elaborate cedarwood throne ornamented with ebony, ivory, gold, and precious stones, and was regarded as one of the Seven Wonders of the Ancient World until its eventual loss and destruction during the fifth century AD. No copy of the statue has ever been found, and details of its form are known only from ancient Greek descriptions and representations on coins.</p>
+</div>
+
+<div id="mausoleum"></div>
+<div class="section">
+<div class="title">Mausoleum at Halicarnassus</div>
+<div class="wonder_pic"><img src="mausoleum.jpg" class="wonder_img" title="Mausoleum at Halicarnassus" alt="picture of the Mausoleum at Halicarnassus"/></div>
+<p>The Mausoleum at Halicarnassus or Tomb of Mausolus was a tomb built between 353 and 350 BC at Halicarnassus (present Bodrum, Turkey) for Mausolus, a satrap in the Persian Empire, and Artemisia II of Caria, who was both his wife and his sister. The structure was designed by the Greek architects Satyros and Pythius of Priene. The Mausoleum stood approximately 45 m (148 ft) in height, and each of the four sides was adorned with sculptural reliefs created by each one of four Greek sculptors Leochares, Bryaxis, Scopas of Paros and Timotheus. The finished structure of the mausoleum was considered to be such an aesthetic triumph that Antipater of Sidon identified it as one of his Seven Wonders of the Ancient World.</p>
+</div>
+
+<div id="colossus"></div>
+<div class="section">
+<div class="title">Colossus of Rhodes</div>
+<div class="wonder_pic"><img src="colossus.jpg" class="wonder_img" title="Colossus of Rhodes" alt="picture of the Colossus of Rhode"/></div>
+<p>The Colossus of Rhodes was a statue of the Greek Titan Helios, erected in the city of Rhodes on the Greek island of Rhodes by Chares of Lindos between 292 and 280 BC. It is considered one of the Seven Wonders of the Ancient World. It was constructed to celebrate Rhodes' victory over the ruler of Cyprus, Antigonus I Monophthalmus, whose son unsuccessfully besieged Rhodes in 305 BC. Before its destruction in the earthquake of 226 BC, the Colossus of Rhodes stood over 30 meters (98.4 ft) high, making it one of the tallest statues of the ancient world. In the late 4th century BC, Rhodes, allied with Ptolemy I of Egypt prevented a massive invasion staged by their common enemy, Antigonus I Monophthalmus. In 304 BC a relief force of ships sent by Ptolemy arrived, and Antigonus's army abandoned the siege, leaving most of their siege equipment. To celebrate their victory, the Rhodians sold the equipment left behind for 300 talentsand decided to use the money to build a colossal statue of their patron god, Helios. Construction was left to the direction of Chares, a native of Lindos in Rhodes, who had been involved with large-scale statues before. His teacher, the sculptor Lysippos, had constructed a 22 meter (70 ft) high bronze statue of Zeus at Tarentum.</p>
+</div>
+
+<div id="lighthouse"></div>
+<div class="section">
+<div class="title">Lighthouse of Alexandria</div>
+<div class="wonder_pic"><img src="lighthouse.jpg" class="wonder_img" title="Lighthouse of Alexandria" alt="picture of the Lighthouse of Alexandria"/></div>
+<p>The Lighthouse of Alexandria, sometimes called the Pharos of Alexandria, was a lofty tower built by the Ptolemaic Kingdom between 280 and 247 BC on the coastal island of Pharos at Alexandria, Egypt for the purpose of guiding sailors into the port. With a height variously estimated at somewhere between 393 and 450 ft (120 and 140 m), it was one of the tallest man-made structures on Earth for many centuries, and was regarded as one of the Seven Wonders of the Ancient World. Badly damaged by three earthquakes between 956 and 1323, it then became an abandoned ruin. It was the third longest surviving ancient wonder (after the Mausoleum at Halicarnassus and the still extant Great Pyramid of Giza) until in 1480 the last of its remnant stones were used to build the Citadel of Qaitbay on the site. In 1994, French archeologists discovered some remains of the lighthouse on the floor of Alexandria's Eastern Harbour.</p>
+</div>
+</div> <!-- end content -->
+</div> <!-- end main -->
+</body>
+</html>
